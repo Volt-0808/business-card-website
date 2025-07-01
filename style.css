@@ -42,11 +42,21 @@ background-color: #ffff;
 
 .hat4{
 position: absolute;
-top: 550%;
+top: 650%;
 left: 0%;
 width: 100%;
 height: 100%;
 background-color: #3b3b3b;
+
+}
+
+.hat5{
+position: absolute;
+top: 550%;
+left: 0%;
+width: 100%;
+height: 100%;
+background-color: #d0d0d0;
 
 }
 
@@ -74,7 +84,11 @@ font-size: 150%;
 /*font-family:;*/
 }
 
-
+.text4{
+color: #000000;
+font-size: 150%;
+/*font-family:;*/
+}
 
 
 
