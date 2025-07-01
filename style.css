@@ -1,7 +1,3 @@
-body {
-    background-color:#000000;
-}
-
 header{
 position: absolute;
 top: 0px;
@@ -10,117 +6,81 @@ width: 100%;
 height: 35%;
 background: linear-gradient(45deg, #207E34, #2D8632, #509E2E, #69B129);
 }
-
 .logo{
 position:absolute;
 top: 0px;
 left:40%;
-
 }
-
 .hat2{
-position: absolute;
 top: 150%;
-left: 0%;
-width: 100%;
-height: 100%;
+height: 50%;
 background: linear-gradient(45deg, #207E34, #2D8632, #509E2E, #69B129);
-
 }
-
 .hat3{
-position: absolute;
 top: 200%;
-left: 0%;
-width: 100%;
-height: 100%;
+height: 50%;
 background-color: #ffff;
-
 }
-
 .hat4{
-position: absolute;
 top: 250%;
-left: 0%;
-width: 100%;
-height: 100%;
+height: 50%;
 background-color: #3b3b3b;
-
 }
-
 .hat5{
-position: absolute;
 top: 300%;
+height: 50%;
+background-color: #d0d0d0;
+}
+header, .hat2, .hat3, .hat4, .hat5{
+position: absolute;
 left: 0%;
 width: 100%;
-height: 100%;
-background-color: #d0d0d0;
-
 }
-
-
-
-
 .text1{
 font-family: "Georgia";
-font-size: 150%;
 }
-
 .text2{
 color: #000000;
-font-size: 150%;
-/*font-family:;*/
 }
-
 .text3{
 color: #a4a4a4;
-font-size: 150%;
-/*font-family:;*/
 }
-
 .text4{
 color: #000000;
-font-size: 150%;
-/*font-family:;*/
 }
-
-
-
-
+.text1, .text2, .text3, .text4{
+font-size: 150%;
+}
 .button{
 background-color:#9E00FF;
 border-radius:50px;
 font-family:Trebuchet MS;
 color:white;
-font-size:170%;
-text-decoration:none;
-padding:15px 30px;
-margin:22px;
+text-align: center;
+margin:10px;
+height:10%;
+width:10%;
 }
-
-
 .button:hover{
-background: var(--clr);
-box-shadow: 0 0 35px var(--clr);
+background: #7c02c8;
+box-shadow: 0 0 35px black;
 }
-
 .slideshow {
-    width: 100vw;
-    height: 100vh;
+    position:absolute;
+    top:40%;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .slideshow img {
     position: absolute;
-    max-width: 90vw;
-    max-height: 80vh;
     opacity: 0;
-    animation: slideshow 24s ease-in-out infinite;
+    max-width: 100vw;
+    height: 100%;
+    animation: slideshow 18s ease-in-out infinite;
 }
-
-
 @keyframes slideshow {
     from {
         opacity: 0;
@@ -153,34 +113,22 @@ box-shadow: 0 0 35px var(--clr);
         opacity: 0;
     }
 }
-
-
 .slideshow .i_1 {
-    animation-delay: 6s;
+    animation-delay: 2s;
     transform: translateX(-100px);
 }
-
 .slideshow .i_2 {
-    animation-delay: 12s;
+    animation-delay: 7s;
     transform: translateX(-100px); 
 }
-
 .slideshow .i_3 {
-    animation-delay: 18s;
+    animation-delay: 12s;
     transform: translateX(-100px);
 }
-
 .slideshow .i_4 {
-    animation-delay: 24s;
+    animation-delay: 16s;
     transform: translateX(-100px);
 }
-
-
-
-
-
-
-
 
 
 
